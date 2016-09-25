@@ -1,0 +1,505 @@
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+header.main_header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+header.main_header .logo{
+    margin-top: 2rem;
+}
+
+header.main_header ol {
+     float: right;   
+}
+
+header.main_header li {
+    display: inline-block;
+    margin: 2rem 0.71rem 0 3.71rem;
+    font-size: 20px;
+}
+
+header.main_header a{
+    color: white;
+    text-decoration: none;
+}
+
+#home{
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 932px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#owl{
+    position: absolute;
+    z-index: 1;
+}
+
+#home .back {
+    height: 100%;
+    width: 100%;
+    background: rgba(34, 37, 38, 0.1);
+    position: absolute;
+}
+
+#scalable_block{
+    position: absolute;
+    z-index: 12;
+    top: 25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 100%;
+}
+
+#home .str_1{
+    text-align: center;
+    font-family: 'Open Scans Light';
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 9px;
+}
+
+#home .str_2{
+    margin-top: 0.35rem;
+    text-align: center;
+    font-family: 'Lato Black';
+    color: white;
+    font-size: 3rem;
+}
+
+#home .str_3{
+    margin-top: 0.35rem;
+    text-align: center;
+    font-family: 'Open Scans Light';
+    color: white;
+    font-size: 2rem;
+}
+
+.shopNow{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.shopNow button{
+    font-family: 'Lato Black';
+    border: 2px solid white;
+    padding: 1rem 3.2rem;
+    color: white;
+    font-size: 1.4rem;
+    background:transparent;
+}
+
+/**
+* header 
+*/
+
+header {
+    position: relative;
+}
+
+.header{
+    font-family: 'Open Scans Light Italic';
+    color: black;
+    font-size: 30px;
+    margin: 58px auto 0;
+    text-align: center;
+}
+
+ header > .block {
+    height: 92px;
+    width: 100px;
+    position: absolute;
+    top:-25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+}
+
+/**
+* Prod bootstrap
+*/
+
+#Prod_boot .first{
+    margin: 94px auto 0;
+}
+
+#Prod_boot .first .left .img{
+    background-image: url('../img/men.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 418px;
+}
+
+#Prod_boot .first .centr .img{
+    background-image: url('../img/women.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 418px;
+}
+
+#Prod_boot .first .right .img{
+    background-image: url('../img/watches.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+    position: relative;
+    height: 418px;
+}
+
+#Prod_boot .back {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+#Prod_boot a:hover .back{
+    background: rgba(0, 0, 0, 0.0);
+}
+
+#Prod_boot .first .text{
+    font-family: 'Open Scans Light Italic';
+    color: white;
+    font-size: 29px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Prod_boot .first .border{
+    border: 3px solid white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height:80%;
+    width: 80%;
+} 
+
+#Prod_boot .second{
+        margin: 30px auto 0;
+}
+
+#Prod_boot .second .left .img{
+    height: 418px;
+    background-image: url('../img/40%_of.png');
+    text-decoration: none;
+    position: relative;  
+}
+
+#Prod_boot .second .right .img{
+    height: 418px;
+    background-image: url('../img/mega_sale.png');
+    text-decoration: none;
+    position: relative;
+}
+
+#Prod_boot .second .text{
+    font-family: 'Lato Black';
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+   	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Prod_boot .second .block{
+    height: 46%;
+    width: 33%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top: 50%;
+   	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/** 
+*Trending Items BOOTS 
+*/
+
+#suit_boot {
+    background-image: url('../img/tranding-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 60px auto 0;
+    position: relative;
+    min-height: 918px;
+}
+
+#suit_boot .cont{
+    margin: 85px 0;
+    height: 570px;
+}
+
+#suit_boot .left {
+    position: relative;
+    height: 570px;
+}
+
+#suit_boot .left .img{
+    width: 100%;
+}
+
+#suit_boot .right{
+}
+
+#suit_boot .desc{
+    position: relative;
+}
+
+#suit_boot h3{
+    font-family: 'Lato Bold';
+    color: red;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#suit_boot .desc_text :first-child {
+    font-family: 'Open sans';
+}
+
+#suit_boot .desc_text {
+    font-family: 'Lato Regular';
+    font-size: 20px;
+}
+
+#suit_boot .button_first{
+    margin-top: 100px;
+}
+
+ #suit_boot .button_first button{
+    border: 1px solid black;
+    padding: 13px 0;
+    font-family: 'Open Sans Bold';
+    font-size: 17px;
+    background: transparent;
+    width: 100%;
+} 
+
+#suit_boot .button_second button{
+    padding: 13px 30px;
+    margin-top:30px;
+    font-family: 'Open Sans Bold';
+    font-size: 17px;
+    background: transparent;
+}
+
+#suit_boot button:hover {
+    background-color: black;
+    color: white;
+}
+
+/**
+*Blog_boot
+*/
+#blog_boot{
+    position: relative;
+    min-height: 1044px;
+}
+
+#blog_boot .content{
+    margin-top: 85px;
+}
+
+#owl_blog{
+    height: inherit;
+}
+
+#blog_boot .left .img{
+    width: 100%;
+    height: inherit;
+} 
+
+#blog_boot .right .img{
+    width: 100%;
+} 
+
+#blog_boot h3{
+    font-family: 'Lato Bold';
+    color: red;
+    margin: 30px 0 0 0;
+    font-size: 23px;
+}
+
+#blog_boot .text :first-child{
+    font-family: 'Lato Regular'; 
+    font-size: 16px;
+    color: #6e6e6e;
+    margin: 30px 0 0 0;
+}
+
+#blog_boot .text :nth-child(2){
+    font-family: 'OpenScan Light';
+    font-size: 18px;
+    color: #9a9a9a;
+    border-top: 1px solid #9a9a9a;
+    border-bottom:  1px solid #9a9a9a;
+    margin: 30px 0 30px 0;
+}
+
+#blog_boot button {
+    border: 1px solid black;
+    padding: 13px 26px;
+    background: transparent;
+    font-family: 'Open Sans Bold';
+    font-size: 16px;
+    width: 170px;
+    margin-bottom: 60px;
+}
+
+/**
+*signature
+*/
+
+#signature{
+    background-image: url('../img/subscribe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    position: relative;
+}
+
+#signature .inscription{
+    margin: 75px 0 0 0;
+    font-family: 'Open Scans Light';
+    font-size: 18px;
+    color: white;
+}
+
+#signature .email{
+    margin-top: 30px;
+}
+
+#signature .inscription_inp{
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: calc(100% - 77px);
+}
+
+.form {
+    font-family: 'Open Scans Light';
+    font-size: 13px;
+    color: white;
+    border: 2px solid white;
+}
+.form > span {
+    padding: 17px;
+}
+
+.inscription_but{
+    font-family: 'Open Sans Bold';
+    font-size: 16px;
+    height: 51px;
+    width: 100%;
+}
+
+#last{
+    height: 160px;
+    position: relative;
+}
+
+#last .heart{
+    text-align: center;
+    margin: 80px;
+    font-family: 'Lato Regular'; 
+    font-size: 18px;
+    color: #cacaca;
+}
+
+#last .glyphicon-heart{
+    color: red;
+}
+
+/**
+*owl carousel
+*/
+section {
+    position: relative;
+}
+
+.my_dots {
+    position: relative;
+    top: -7rem;
+}
+
+ .my_dot {
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+ }
+
+.my_dot.active {
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.my_dot_suit {
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    background-color: #878787;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+ }
+ #owl_suit .owl-dots .my_dot_suit.active {
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid red;
+ }
+
+.my_blog_controls{
+    margin-top: -500px;
+    position: absolute;
+    left: -100px;
+    display: flex;
+    justify-content:space-between;
+    width: 118%;
+}
+
+#owl_blog.owl-theme .owl-nav{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+#owl_blog.owl-theme .owl-nav [class*='owl-']{
+    background: transparent;
+    color: #c1c1c1;
+    font-size: 48px;
+}
+
+#owl_blog.owl-theme .owl-nav [class*='owl-']:hover{ 
+        color:  #F08080;
+}
+
+#owl_blog.owl-theme .owl-nav [class*='owl-']:active{
+        color: #FFC0CB;
+}
